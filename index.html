@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Flappy Bird using JS | by learnWD</title>
-  </head>
-  <body>
-   <h3>flappyBird by LearnWD</h3>
-   
-   <canvas id="canvas" width="288" height="512"></canvas>
-   
-   <script src="flappyBird.js"></script>
-  </body>
+
+<head>
+    <title>Flappy Bird using JS</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <h3>flappyBird by LearnWD</h3>
+    <div style="width: 288px">
+      <textarea class="form-control  z-depth-1" rows="10" id="output" wrap="on" style="height: 100px; overflow-y: scroll"></textarea>
+      <textarea class="form-control  z-depth-1" rows="10" wrap="off" id="verticalNotes">Lưu ý: Tắt phần mềm hỗ trợ gõ tiếng việt khi sử dụng gõ tốc ký</textarea> 
+    </div>
+    
+    <!-- canvas for game-->
+    <!-- <canvas id="canvas" width="288" height="512"></canvas> -->
+    <div id="input-person" data-path="ZGljdC5qc29u"></div>
+    <div id="keyCodeToSteno" data-path="a2V5Q29kZVRvU3Rlbm8uanNvbg=="></div>
+    <div id="binaryToSteno" data-path="YmluYXJ5VG9TdGVuby5qc29u"></div>
+    <div id="keyCodeToStenoNumber" data-path="a2V5Q29kZVRvU3Rlbm9OdW1iZXIuanNvbg=="></div>
+    <div id="keyCodeToQwerty" data-path="a2V5Q29kZVRvUXdlcnR5Lmpzb24="></div>
+    <script src="./js/jquery.base64.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="./js/jquery.slimscroll.js"></script>
+    <script src="./js/ploverdemo_mod.js"></script>
+    <!--  <script src="flappyBird.js"></script> -->
+</body>
+
 </html>
